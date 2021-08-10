@@ -97,6 +97,7 @@ or
 roslaunch turtlebot3_slam turtlebot3_slam.launch
 ```
 for viewing as a map.
+
 5. In new terminal, start the predict program
 ```vim
 rosrun dqn_turtlebot DQN_predict.py
