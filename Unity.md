@@ -10,3 +10,7 @@ https://youtu.be/HV1v8mXNmLA
 ## Run
 1. In terminal,```roslaunch ros_tcp_endpoint endpoint.launch``` to launch  roscore and start the node.
 2. In new terminal, run ```rosrun unity_robotics_demo pos_publisher.py``` to run the python code.
+
+## ROS Unity integration
+Follow the examples from 
+https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/README.md
