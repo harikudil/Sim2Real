@@ -10,7 +10,7 @@ https://youtu.be/HV1v8mXNmLA
 ## Run
 1. In terminal,```roslaunch ros_tcp_endpoint endpoint.launch``` to launch  roscore and start the node.
 2. In new terminal, run ```rosrun unity_robotics_demo pos_publisher.py``` to run the python code.
-3. To visulaize lidar, in terminal run ```rosrun unity_robotics_demo laser_test.py````
+3. To visulaize lidar, in terminal run ```rosrun unity_robotics_demo lidar_test.py```.
 
 ## ROS Unity integration
 Follow the examples from 
