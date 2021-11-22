@@ -25,8 +25,9 @@ To create a new type of messages for example like LIDAR. the follwoing has to be
 4. Open Unity and Robotics->Generate ROS messages and Rebuild message.
 ![image](https://user-images.githubusercontent.com/63108972/139685614-ca874c51-5c4b-4499-8af5-eb6b82dbea2e.png)
 This generates C# laser message in asset folder.
-5. For python message, open terminal, goto catkin_ws and type catkin_make. this generates the message file in cartkin/ws/devel/lib/python3/dist-packages/unity-robotic-demo-msgs/msg/_Laser.py
-6. Now create simple publisher script in Unity and call the messages like below
+5. For python message, goto  folder catkin_ws -> unity_robotics_demo_msgs. in CMakeLists.txt add the new message file name under "add_message_files".
+6. open terminal, goto catkin_ws and type catkin_make. this generates the message file in cartkin/ws/devel/lib/python3/dist-packages/unity-robotic-demo-msgs/msg/_Laser.py
+7. Now create simple publisher script in Unity and call the messages like below
 ```ros = ROSConnection.GetOrCreateInstance();
 ros.RegisterPublisher<LaserMsg>('lidar_msg');
 LaserMsg scan = new LaserMsg{
