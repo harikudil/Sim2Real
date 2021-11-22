@@ -1,8 +1,7 @@
 # Algorithm Setup and run
 
 ## Setup Evironment
-Install keras and tensorflow with help from this website
-https://www.activestate.com/resources/quick-reads/how-to-install-keras-and-tensorflow/
+Install Keras and Tensorflow 1.x with python 3.6 only. Anything higher will need Tensorflow 2 which is slow.
 
 ## Run Simple DQN 
 Run the unity build and ```roslaunch ros_tcp_endpoint endpoint.launch``` to start ROS communication.
