@@ -33,7 +33,8 @@ ros.RegisterPublisher<LaserMsg>('lidar_msg');
 LaserMsg scan = new LaserMsg{
     range = LidarScan,
         };
-ros.Publish(LidartopicName, scan);```
+ros.Publish(LidartopicName, scan); 
+```
 
 ## ROS deafult messages styles (Twsit/ Laserscan) on Unity
 ROS's default message type such as control signal ```Twist``` and lidar messages like ```Laserscan``` can be used in Unity.
