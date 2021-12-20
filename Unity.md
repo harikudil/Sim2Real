@@ -42,3 +42,20 @@ ROS's default message type such as control signal ```Twist``` and lidar messages
 2. In ROS message path choose folder path ```/opt/ros/noetic/bin/share```.
 3. This list of message types will be displayed, choose only required and build messages.
 
+## Unity vs Gazebo's coordinate system
+![image](https://user-images.githubusercontent.com/63108972/146776573-b5c245a9-1876-4445-98ba-d39d8e3d49c3.png)
+Gazebo uses coordinate system much similar to the common methods, on the other hand unity is quite different.
+following has to be changed while exporting values from unity to ros
+```
+Coordinates
+ Unity X = Ros X
+ Unity Y = Ros Z
+ Unity Z =  Ros Y
+ 
+Rotation
+ Unity y = - Ros Z
+ 
+Unity rotation = Ros rotation - 90 deg
+```
+
+
