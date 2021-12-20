@@ -43,7 +43,7 @@ ROS's default message type such as control signal ```Twist``` and lidar messages
 3. This list of message types will be displayed, choose only required and build messages.
 
 ## Unity vs Gazebo's coordinate system
-![image](https://user-images.githubusercontent.com/63108972/146776573-b5c245a9-1876-4445-98ba-d39d8e3d49c3.png)
+![image](https://user-images.githubusercontent.com/63108972/146777723-46da7ea4-25bd-4ef8-8bc9-6f1f46b0af32.png)
 Gazebo uses coordinate system much similar to the common methods, on the other hand unity is quite different.
 following has to be changed while exporting values from unity to ros
 ```
