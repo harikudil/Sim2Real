@@ -57,5 +57,21 @@ Rotation
  
 Unity rotation = Ros rotation - 90 deg
 ```
+# Run Simulator in new computer
+1. Copy ROS_TCP_endpoint from https://github.com/Unity-Technologies/ROS-TCP-Endpoint and paste in /catkin_ws/src. 
+```
+cd catkin_ws
+catkin_make
+```
+2. Open Rbt_sim in the unity software and change ROSIP to new pc's IP address( should have installed ROS Unity as above into).
+3. In the new PC 
+``` 
+nano ~/.bashrc
+```
+change ROSIP to current PC ip address, then
+```
+source ~/.bashrc
+```
+4. Now run
 
 
